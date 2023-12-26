@@ -1,1 +1,1 @@
-# .github
+# MITS LAB Github Organization
