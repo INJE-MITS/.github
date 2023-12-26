@@ -1,4 +1,4 @@
-## Hi there 👋
+## MITS Organization 🩻
 
 <!--
 
