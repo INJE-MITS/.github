@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="MITS LAB — Biomedical Ultrasound, Inje University">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#12233d"/>
+    </linearGradient>
+    <linearGradient id="sector" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0.04"/>
+    </linearGradient>
+    <clipPath id="sectorClip">
+      <path d="M 980 40 L 1150 270 A 250 250 0 0 1 810 270 Z"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- B-mode sector with scan lines -->
+  <g clip-path="url(#sectorClip)">
+    <rect x="780" y="30" width="400" height="260" fill="url(#sector)"/>
+    <g stroke="#bae6fd" stroke-opacity="0.35" stroke-width="1">
+      <path d="M980 40 L810 270"/><path d="M980 40 L860 275"/><path d="M980 40 L910 280"/><path d="M980 40 L980 285"/>
+      <path d="M980 40 L1050 280"/><path d="M980 40 L1100 275"/><path d="M980 40 L1150 270"/>
+    </g>
+    <g fill="none" stroke="#e0f2fe" stroke-opacity="0.5" stroke-width="1">
+      <path d="M 905 130 A 120 120 0 0 0 1055 130"/>
+      <path d="M 860 195 A 190 190 0 0 0 1100 195"/>
+    </g>
+    <!-- speckle -->
+    <g fill="#e0f2fe" fill-opacity="0.35">
+      <circle cx="930" cy="170" r="1.5"/><circle cx="1010" cy="150" r="1.2"/><circle cx="1060" cy="210" r="1.6"/>
+      <circle cx="900" cy="230" r="1.1"/><circle cx="990" cy="240" r="1.4"/><circle cx="1090" cy="250" r="1.2"/>
+      <circle cx="950" cy="110" r="1.0"/><circle cx="1030" cy="190" r="1.3"/><circle cx="880" cy="260" r="1.2"/>
+    </g>
+  </g>
+
+  <!-- RF / pulse waveform -->
+  <path d="M40 235 H210 c6 0 6-60 12-60 s6 120 12 120 s6-150 12-150 s6 170 12 170 s6-120 12-120 s6 70 12 70 s6-30 12-30 s6 10 12 10 H700"
+        fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M40 235 H700" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
+
+  <text x="40" y="92" font-family="Inter, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#f8fafc" letter-spacing="1">MITS LAB</text>
+  <text x="40" y="132" font-family="Inter, Helvetica, Arial, sans-serif" font-size="22" fill="#bae6fd">Biomedical Ultrasound · Inje University</text>
+  <text x="40" y="164" font-family="Inter, Helvetica, Arial, sans-serif" font-size="16" fill="#94a3b8">imaging systems · beamforming · high-frequency ultrasound · photoacoustics · therapeutic ultrasound · AI</text>
+</svg>
