@@ -105,10 +105,4 @@ flowchart LR
 
 전체 논문 목록은 [Google Scholar](https://scholar.google.com/citations?user=J_hFI1AAAAAJ), 학과 프로필은 [인제대학교 의공학과](https://bme.inje.ac.kr/bme/intro/faculty.do?mode=view&key=$cms$IwFmHYE4DYAJ9kA&category=2J09)에 있습니다.
 
----
-
-## 함께하기
-
-초음파 시스템(FPGA·임베디드·신호처리), 의료 영상 AI, 고주파 초음파와 세포 실험 중 어느 쪽에서 출발해도 좋습니다. 학부 연구생·대학원 진학·공동 연구 문의는 위 연락처로 보내 주세요. 저장소의 이슈와 PR도 환영합니다.
-
 <sub>지표와 서지 정보는 Google Scholar, Crossref, Europe PMC, 인제대학교 의공학과 교수 소개 페이지를 바탕으로 2026년 9월에 정리했습니다.</sub>
