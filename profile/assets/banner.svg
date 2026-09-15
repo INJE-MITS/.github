@@ -28,9 +28,9 @@
   </g>
 
   <!-- RF pulse waveform -->
-  <path d="M40 235 H210 c6 0 6-60 12-60 s6 120 12 120 s6-150 12-150 s6 170 12 170 s6-120 12-120 s6 70 12 70 s6-30 12-30 s6 10 12 10 H700"
+  <path d="M40 240 H330 c6 0 6-32 12-32 s6 64 12 64 s6-80 12-80 s6 90 12 90 s6-64 12-64 s6 38 12 38 s6-16 12-16 s6 6 12 6 H700"
         fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M40 235 H700" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
+  <path d="M40 240 H700" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1"/>
 
   <text x="40" y="92" font-family="Inter, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#f8fafc" letter-spacing="1">MITS LAB</text>
   <text x="40" y="132" font-family="Inter, Helvetica, Arial, sans-serif" font-size="22" fill="#bae6fd">Biomedical Ultrasound · Inje University</text>
